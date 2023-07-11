@@ -240,3 +240,34 @@ p.fs-ct-info-description.inst-des {
     padding: 25px 0 40px 0 !important;
 }
 
+/* Get The Latest Deals style */
+.submit{
+    border-radius: 8px;
+    background: #E55473;
+    padding: 15px 35px;
+    border: none;
+    color: white;
+    font-size: 20px;
+    line-height: 20px;
+    margin-left: 16px;
+}
+input#email {
+    border-radius: 8px;
+    background: #FFF;
+    width: 520px;
+    height: 10px;
+    padding: 22px;
+}
+.deals-section{
+    padding: 0 0 50px 0;
+}
+.subscribe-form {
+    display: flex;
+    justify-content: center;
+}
+.deals-section-container{
+    background-image: url(./media/Rectangle\ 9.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 60px 0;
+}
