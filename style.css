@@ -1,0 +1,41 @@
+*{
+    padding: 0;
+    margin: 0;
+    border: 0;
+}
+
+/* Common Style */
+.container{
+    width: 75vw;
+    margin: 0 auto;
+}
+.row{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.col-2 {
+    width: 50%;
+}
+/* Header Section Style */
+header{
+    background-color: #E55473;
+    padding: 10px 0;
+}
+/* header menu style */
+.menu nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: flex-end;
+}
+.menu nav ul li{
+    margin-left: 50px;
+}
+.menu nav ul li a{
+    text-decoration: none;
+    font-size: 24px;
+    color: white;
+}
+img.logo-img {
+    width: 80px;
+}
