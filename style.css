@@ -271,6 +271,14 @@ input#email {
     background-size: cover;
     padding: 60px 0;
 }
+input#email:focus {
+    outline: 3px solid pink !important;
+    background-color: white;
+}
+input#email {
+    background: #ffc0cb73;
+    outline: 3px solid white;
+}
 
 /* Footer Section style */
 .footer-section{
