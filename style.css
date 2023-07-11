@@ -184,4 +184,41 @@ img.intro-media-img {
     font-weight: 400;
     line-height: 60px;
 }
+/* Hot deal section style */
+.hot-deal-section{
+    background: rgba(229, 84, 115, 0.05);
+    padding: 100px 0;
+}
+/* hot deal details */
+h1.hot-deal-title {
+    color: #272727;
+    font-size: 38px;
+    font-weight: 400;
+    font-family: 'Lobster', cursive;
+    text-align: center;
+}
+p.hot-deal-description {
+    text-align: center;
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 18px;
+    line-height: 28px;
+    padding: 18px 0;
+    font-weight: 400;
+    font-family: 'Lato', sans-serif;
+    margin: 0 auto;
+}
+.button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/* hot deal img */
+.hot-deal-col-r{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+img.hot-deal-img {
+    width: 250px;
+}
 
