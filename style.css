@@ -105,7 +105,7 @@ img.intro-media-img {
     text-align: center;
     color: rgba(39, 39, 39, 0.60);
     font-size: 18px;
-    line-height: 40px;
+    line-height: 28px;
     padding: 18px 0;
     font-weight: 400;
     font-family: 'Lato', sans-serif;
@@ -220,5 +220,23 @@ p.hot-deal-description {
 }
 img.hot-deal-img {
     width: 250px;
+}
+
+/* Instagram section */
+.instagram-section{
+    padding: 80px 0;
+}
+
+.col-4 {
+    width: 24%;
+}
+.ins-img {
+    width: 100% !important;
+}
+img.intagram-img {
+    width: inherit;
+}
+p.fs-ct-info-description.inst-des {
+    padding: 25px 0 40px 0 !important;
 }
 
