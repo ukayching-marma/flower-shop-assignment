@@ -9,10 +9,10 @@
     width: 75vw;
     margin: 0 auto;
 }
-.row{
+.row {
     display: flex;
     align-items: center;
-    justify-content: space-evenly;
+    justify-content: space-between;
 }
 .col-2 {
     width: 50%;
@@ -81,5 +81,77 @@ img.intro-media-img {
     height: 658px;
     display: flex;
     justify-content: flex-end;
+}
+
+/* Featured Flowers Section style */
+.featured-section{
+    width: 100vw;
+    height: 98vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.col-1{
+    width: 100%;
+}
+.fs-ct-info-title{
+    text-align: center;
+    color: #272727;
+    font-size: 48px;
+    font-weight: 400;
+    font-family: 'Lobster', cursive;
+}
+.fs-ct-info-description{
+    text-align: center;
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 18px;
+    line-height: 40px;
+    padding: 18px 0;
+    font-weight: 400;
+    font-family: 'Lato', sans-serif;
+    width: 60%;
+    margin: 0 auto;
+}
+/* Featured Flowers Section Media Information Style */
+.col-3{
+    width: 32%;
+}
+.fs-ct-media-1, .fs-ct-media-2, .fs-ct-media-3{
+    width: 100%;
+    height: 420px;
+    border-radius: 300px 300px 0px 0px;
+}
+.fs-ct-media-1{
+    background: rgba(167, 33, 98, 0.15);
+}
+.fs-ct-media-2{
+    background: rgba(5, 151, 160, 0.15);
+}
+.fs-ct-media-3{
+    background: rgba(71, 125, 17, 0.15);
+}
+.fs-ct-media-1-img, .fs-ct-media-2-img, .fs-ct-media-3-img{
+    width:70%;
+}
+.fs-ct-media-1, .fs-ct-media-2, .fs-ct-media-3 {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+.fs-ct-media-2-img{
+    margin-bottom: 50px;
+}
+.fs-ct-media-lnk a{
+    color: #272727;
+    text-align: center;
+    font-family: 'Lato', sans-serif;
+    font-weight: 900;
+    font-size: 20px;
+    line-height: 35px;
+}
+.fs-ct-media-lnk {
+    display: flex;
+    justify-content: center;
+    margin-top: 25px;
 }
 
