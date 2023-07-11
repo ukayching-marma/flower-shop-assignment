@@ -86,7 +86,7 @@ img.intro-media-img {
 /* Featured Flowers Section style */
 .featured-section{
     width: 100vw;
-    height: 98vh;
+    padding: 50px 0;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -109,7 +109,6 @@ img.intro-media-img {
     padding: 18px 0;
     font-weight: 400;
     font-family: 'Lato', sans-serif;
-    width: 60%;
     margin: 0 auto;
 }
 /* Featured Flowers Section Media Information Style */
