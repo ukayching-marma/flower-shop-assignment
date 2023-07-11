@@ -294,3 +294,53 @@ input#email {
     font-weight: 400;
     margin-top: 16px;
 }
+
+
+/* New Product Section */
+section.new-product-section {
+    padding-top: 50px;
+}
+.npst{
+    text-align: center;
+}
+button:hover {
+    cursor: pointer;
+}
+.product-title {
+    width: 100% !important;
+    margin-bottom: 10px;
+    
+}
+i.fa-solid.fa-star, i.fa-solid.fa-star-half-stroke {
+    color: gold;
+}
+p.rating-box {
+    font-size: 25px;
+    margin-top: 10px;
+}
+span.product-price-amount {
+    font-size: 26px;
+    font-weight: 400;
+    font-family: 'Lobster', cursive;
+}
+button.action {
+    background: #e62263;
+    padding: 13px 25px;
+    color: white;
+    font-size: 18px;
+    margin-top: 10px;
+    border-radius: 5px;
+}
+img.product-img {
+    width: 150px;
+    height: auto;
+}
+.product-1 {
+    border: 4px solid pink;
+    border-radius: 5px;
+    width: 20%;
+    padding: 14px;
+}
+p.new-product-description.fs-ct-info-description {
+    width: 60%;
+}
